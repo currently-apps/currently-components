@@ -1,4 +1,4 @@
-import './tailwind.css';
+import '../../tailwind.css';
 
 // Code: Header component
 type User = {

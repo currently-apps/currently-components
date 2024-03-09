@@ -1,4 +1,4 @@
 import './tailwind.css';
-import { Button } from './Button.tsx';
+import { Button } from './components/Button';
 import { Header } from './components/Header';
 export {Button, Header}
