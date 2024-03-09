@@ -1,7 +1,7 @@
 {
-  "name": "currently-components",
-  "private": true,
-  "version": "0.0.0",
+  "name": "@currently-apps/currently-components",
+  "private": false,
+  "version": "0.0.3",
   "type": "module",
   "main": "dist/main.js",
   "types": "dist/main.d.ts",
@@ -29,6 +29,7 @@
     "@storybook/addon-interactions": "^7.6.17",
     "@storybook/addon-links": "^7.6.17",
     "@storybook/addon-onboarding": "^1.0.11",
+    "@storybook/addon-viewport": "^7.6.17",
     "@storybook/blocks": "^7.6.17",
     "@storybook/builder-vite": "^7.6.17",
     "@storybook/react": "^7.6.17",
@@ -55,5 +56,24 @@
     "vite": "^5.1.4",
     "vite-plugin-dts": "^3.7.3",
     "vite-plugin-lib-inject-css": "^2.0.0"
-  }
+  },
+  "description": "Currently Components is a component library built with React, Storybook, TailwindCSS, and daisyUI.",
+  "directories": {
+    "lib": "dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/currently-apps/currently-components.git"
+  },
+  "keywords": [
+    "component",
+    "library",
+    "ui"
+  ],
+  "author": "Rewel Cabiles",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/currently-apps/currently-components/issues"
+  },
+  "homepage": "https://github.com/currently-apps/currently-components#readme"
 }
