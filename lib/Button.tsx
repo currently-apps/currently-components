@@ -10,16 +10,14 @@ interface ButtonProps {
 export const Button = ({
   primary = false,
   size = 'medium',
-  backgroundColor,
   label,
   ...props
 }: ButtonProps) => {
-  const mode = primary ? 'btn-primary' : 'btn-secondary';
+  const mode = primary ? '' : 'btn-secondary';
   return (
     <button
       type="button"
       className={['btn', size, mode].join(' ')}
-      style={{ backgroundColor }}
       {...props}
     >
       {label} Test

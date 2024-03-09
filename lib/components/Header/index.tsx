@@ -1,3 +1,5 @@
+import './tailwind.css';
+
 // Code: Header component
 type User = {
    name: string;
