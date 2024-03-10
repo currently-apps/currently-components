@@ -1,4 +1,4 @@
-import "../../tailwind.css";
+import "../../component-styles.css";
 import { createRef, RefObject } from "react";
 
 interface IToolbarAction {

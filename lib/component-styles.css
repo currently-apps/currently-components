@@ -3,6 +3,3 @@
 @tailwind utilities;
 
 
-div.is_markdown * {
-    all:revert !important;
-}

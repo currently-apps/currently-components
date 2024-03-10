@@ -2,16 +2,16 @@ import Markdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { vscDarkPlus } from "react-syntax-highlighter/dist/cjs/styles/prism";
-import "../../tailwind.css";
+import "../../component-styles.css";
 
 interface IMarkdownRendererProps {
   content: string;
 }
 export const MarkdownRenderer = ({ content }: IMarkdownRendererProps) => {
   return (
-    <div className="">
+    <div>
       <Markdown
-        className=" prose "
+        className="prose "
         children={content}
         remarkPlugins={[remarkGfm]}
         components={{
@@ -24,7 +24,7 @@ export const MarkdownRenderer = ({ content }: IMarkdownRendererProps) => {
               <SyntaxHighlighter
                 {...rest}
                 PreTag="div"
-                className="prose prose-stone"
+                className="prose neutral"
                 children={String(children).replace(/\n$/, "")}
                 language={match[1]}
                 style={vscDarkPlus}

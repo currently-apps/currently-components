@@ -1,4 +1,4 @@
-import "../../tailwind.css";
+import "../../component-styles.css";
 
 interface ButtonProps {
   primary?: boolean;
