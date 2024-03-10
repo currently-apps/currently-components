@@ -17,6 +17,8 @@ export const globalTypes = {
    dataThemes: {
       defaultValue: {
          list: [
+            {name: "Light", dataTheme: "light", color: "#ffffff"},
+            {name: "Dark", dataTheme: "dark", color: "#000000"},
             {name: "Rainforest", dataTheme: "rainforest", color: "#00755e"},
             {name: "Candy", dataTheme: "candy", color: "#ffb7d5"},
             {name: "Rose", dataTheme: "rose", color: "#ff007f"},
